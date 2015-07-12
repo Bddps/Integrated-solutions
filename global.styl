@@ -1,0 +1,307 @@
+$BackgroundColor = rgba(175, 176, 177, 0.45)
+$BackgroundContact = #000711
+$SqueletColor = black
+
+@import "fonts.css"
+
+body
+  -webkit-font-smoothing: antialiased
+  text-rendering optimizeLegibility
+  font-family 'Gotham-Light'
+  margin 0
+  -webkit-transition: .2s
+  -moz-transition: .2s
+  -o-transition: .2s
+
+.Wrapper
+  margin 0 auto
+  max-width 1200px
+
+header
+  width 100%
+  max-height 350px
+  background url(https://static.platzi.com/media/courses/marketing_cover.jpg) center bottom / cover no-repeat, -webkit-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Chrome 10+, Saf5.1+ */
+  background url(https://static.platzi.com/media/courses/marketing_cover.jpg) center bottom / cover no-repeat, -moz-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* FF3.6+ */
+  background url(https://static.platzi.com/media/courses/marketing_cover.jpg) center bottom / cover no-repeat, -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
+  background url(https://static.platzi.com/media/courses/marketing_cover.jpg) center bottom / cover no-repeat, -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
+  background  url(https://static.platzi.com/media/courses/marketing_cover.jpg) center bottom / cover no-repeat,  linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
+  background-position center bottom
+  -webkit-box-shadow: -1px 17px 5px -9px rgba(0,0,0,0.12);
+  -moz-box-shadow: -1px 17px 5px -9px rgba(0,0,0,0.12);
+  box-shadow: -1px 17px 5px -9px rgba(0,0,0,0.12);
+  
+  nav
+    margin 0 auto
+    max-width 1000px
+    
+    .Branding
+      padding-top 20px
+      padding-left 10px
+      padding-bottom 30px
+      display inline-block
+      font-weight 600
+      color white
+      font-family 'Gotham-Light'
+      font-size 40px
+      
+.Navigation
+  float right
+  display inline-block
+  
+  li
+    vertical-align top
+    position relative
+    padding 10px
+    line-height 44px
+    cursor pointer 
+    text-decoration none
+    display inline-block
+    
+    a
+      font-family 'Roboto', sans-serif
+      padding-top 10px
+      font-weight 500
+      text-decoration none
+      color white
+      
+    a:hover
+      -webkit-transition: .2s
+      -moz-transition: .2s
+      -o-transition: .2s
+      color white
+      -ms-transition: .2s
+      transition: .2s
+      border-top 3px solid #14ADC4
+      
+.separator
+  border-bottom 1px solid rgba(255, 255, 255, 0.26)
+  
+.sliders
+  margin 0 auto
+  padding-top 60px
+  max-width 900px
+  height 400px
+  text-align center
+
+  h1
+    font-size 40px
+    color white
+    font-family: 'Lato', sans-serif
+    margin 0
+    font-style italic
+  
+  h4
+    margin-top 10px
+    text-align center
+    line-height 20px
+    font-size 16px
+    font-family Roboto,arial,sans-serif
+    font-weight normal
+    color white
+
+.mainSite
+  
+  .we
+    max-width 900px
+    margin 0 auto
+    text-align center
+    position relative
+    padding-top 40px
+    min-height 450px
+    padding-bottom 10px
+    
+  h1
+    color  #3C3E47 
+    margin 0
+    font-family: 'Lato', sans-serif
+    
+  h5
+    padding-bottom 30px
+    
+    
+  .squelet
+    position relative
+    display inline-block
+    
+    .line
+      height 180px
+      text-align center
+      border-right 2px solid $SqueletColor
+      
+    .minilines
+        
+      .line1
+        position absolute
+        top 0
+        width 15px
+        border-bottom 2px solid $SqueletColor
+        
+      .line2
+        position absolute
+        top 60px
+        left -15px
+        width 15px
+        border-bottom 2px solid $SqueletColor
+        
+      .line3
+        position absolute
+        top 120px
+        width 15px
+        border-bottom 2px solid $SqueletColor
+        
+      .line4
+        position absolute
+        top 178px
+        left -15px
+        width 15px
+        border-bottom 2px solid $SqueletColor
+    
+    .textContent
+      .text1
+        font-size 14px
+        width 400px
+        top -5px
+        left 12px
+        position absolute
+        
+      .text2
+        font-size 14px
+        width 400px
+        top 52px
+        left -415px
+        position absolute
+        
+      .text3
+        font-size 14px
+        width 400px
+        top 111px
+        left 12px
+        position absolute
+        
+      .text4
+        font-size 14px
+        width 400px
+        top 168px
+        left -415px
+        position absolute
+        
+  .gallery
+    position relative
+    min-height 500px
+    margin-top 10px  
+    background #111
+      
+    .content
+      margin 0 auto
+      max-width 900px 
+      
+      .description
+        display inline-block 
+        float left
+      
+      h1
+        padding-top 130px
+        color white
+        font-family 'Lato'
+        font-size 30px
+      
+      h5
+        font-family 'Roboto', sans-serif
+        font-weight 400
+        max-width 360px
+        color white
+    
+    .images
+      display inline-block
+      float right
+      max-width 400px
+      margin-top 70px
+      margin-right -100px
+      
+      .imageSize
+        width 120px
+        height 120px
+      
+      .card
+        display inline-block
+        padding 7px
+        border-radius 3px
+        background white
+        margin-top 10px
+        margin-right 10px
+        box-shadow 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+        
+  .contact
+    min-height 600px
+    
+    .content
+      text-align center
+      max-width 900px
+      margin 0 auto
+
+      h1
+        padding-top 30px
+    .form
+      display inline-block
+      
+.input
+  width: 100%;
+  font-family 'Roboto'
+  border: none;
+  padding: 0.8em 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.375em;
+  outline: 0;
+  background-size: 100% 100%;
+  margin-bottom 10px
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  border 1px solid #e4e4e4
+  border-bottom: 5px solid rgb(221, 218, 218);
+  resize: none;
+  
+.bottom
+  background: #2196F3;
+  border-bottom: 1px solid #B8B8B8;
+  border-radius: 3.5px;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+  color: #fff;
+  border: none;
+  font-family: 'Roboto'
+  width: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  transition: background 0.5s ease;
+  
+footer
+  background #111;
+  width 100%
+  min-height 70px
+  
+  .content
+    max-width 900px
+    margin 0 auto
+    padding-top 25px
+    font-family 'Roboto', sans-serif
+    font-size 17px
+    font-weight 100
+    color white
+    
+    .copyright
+      display inline-block
+      float left
+    
+    .rights
+      display inline-block
+      float right
+    
+    a
+      text-decoration none
+      color #14ADC4
